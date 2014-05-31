@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Verzion Cost Caluclator.exe" version="1.1.0.3" publicKeyToken="983fdf1a175f54aa" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="verizontab_256px.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Verzion Cost Caluclator" version="1.1.0.2" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Verzion Cost Caluclator.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+            If you want to change the Windows User Account Control level replace the 
+            requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel node will disable file and registry virtualization.
+            If you want to utilize File and Registry Virtualization for backward 
+            compatibility then delete the requestedExecutionLevel node.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Verzion Cost Caluclator.exe" size="123392">
+      <assemblyIdentity name="Verzion Cost Caluclator" version="1.1.0.2" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>EH0AmEi7VuUpSEtfAjN3YX1eqmQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="verizontab_256px.ico" size="29849">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>/qFTuebOScSR4MXSKtF8UWqSYx4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Verzion Cost Caluclator.exe.config" size="930">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>QHeBYNh68Ge4b1DA94mai4ADzu8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of all Windows versions that this application is designed to work with. 
+      Windows will automatically select the most compatible environment.-->
+      <!-- If your application is designed to work with Windows Vista, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"></supportedOS>-->
+      <!-- If your application is designed to work with Windows 7, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+      <!-- If your application is designed to work with Windows 8, uncomment the following supportedOS node-->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"></supportedOS>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Dell-PC\Zach" issuerKeyHash="53d5e2f3bad2fcbcd3039e580add44d3e694abbc" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>5U/rFTzNogcjbr/ZBT8Mse5+wNcKof8cWIB6faRdAzQ=</DigestValue></Reference></SignedInfo><SignatureValue>VUWCeCPnVdq6EddC8wiJKci0zcxusDYDC+YJCbV1Z5trVQcUe9Tyd2k48TofACVmuQEtz7gb4wxIOzWMqXBC1K07iQfhsQ/G8fAeV6AElep/JbGV/l0aJngNFElk2vit3JNBdxiz/9CUW8TmojhXlpPPv3UKxIx7P8DO14MPw2w=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>12uxVfbkXBzclSBmBCBTQrPiEd1YKWY6ODtPEuctJrW/3DbKZO/qARN6YPIVN3cly/MfxYUW/3YDcSi4Z9qE0P7Wc1EHv9gUSpM+8j2pWgBKxZF+he3F+/704ZrBB0OecQfZ5UKifd9XFfkcKxGFrYOicmdg3O0LaVYumMvbZq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="34035da47d7a80581cffa10ad7c07eeeb10c3f05d9bf6e2307a2cd3c15eb4fe5" Description="" Url=""><as:assemblyIdentity name="Verzion Cost Caluclator.exe" version="1.1.0.3" publicKeyToken="983fdf1a175f54aa" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Dell-PC\Zach</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>BAO12KiubzIwSeFkZrEDMTxzxlKBmaqSJTnq2gd0LcA=</DigestValue></Reference></SignedInfo><SignatureValue>ihELUTUYs7zSb1+HXzm2DdPjEU2DlLPaQKMgyEsc6yMTW8c+/Jk2iCWtQPnCmBCEMG5IyZT1e4Me3biR5YLqGY1oovGxXhBNGCkHA7qY6k4znDH1CZHgSnrsAfjuoGg14R3KBOqFv8Hzjy9rHm+NL07MztuqS40JoGBMsyyfc7s=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>12uxVfbkXBzclSBmBCBTQrPiEd1YKWY6ODtPEuctJrW/3DbKZO/qARN6YPIVN3cly/MfxYUW/3YDcSi4Z9qE0P7Wc1EHv9gUSpM+8j2pWgBKxZF+he3F+/704ZrBB0OecQfZ5UKifd9XFfkcKxGFrYOicmdg3O0LaVYumMvbZq0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQEd3j9n5kCbdC4TsI9X3wTjANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgARABlAGwAbAAtAFAAQwBcAFoAYQBjAGgwHhcNMTQwNTE2MDQzNTExWhcNMTUwNTE2MTAzNTExWjAjMSEwHwYDVQQDHhgARABlAGwAbAAtAFAAQwBcAFoAYQBjAGgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANdrsVX25Fwc3JUgZgQgU0Kz4hHdWClmOjg7TxLnLSa1v9w2ymTv6gETemDyFTd3JcvzH8WFFv92A3EouGfahND+1nNRB7/YFEqTPvI9qVoASsWRfoXtxfv+9OGawQdDnnEH2eVCon3fVxX5HCsRha2DonJnYNztC2lWLpjL22atAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAnRlHGPp2UYzbhoNpZ521tqXpuDfbEsrI/gNwa6fFsHwhqWG2Zr/e7Kuexcryqb6b5LJyngLark1Kh8P9fnl3bDCBEhwDwfXr4sdTisVZj3kevYmmeNdOTIiJuYIeRFFIm3UItxpaxfR8RTYe4i9wY+4cjjZcuooRXRda0vPcJMg=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
